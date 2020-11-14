@@ -1,0 +1,128 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
+  
+  .header-1{
+    padding: 10px 30px 10px 52px!important;
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+  }
+  
+  
+  .fa-chevron-down, .fa-search{
+    font-size:24px;
+  }
+  .fa{
+    padding: 6px 2px;
+  }
+  
+  
+  .inp-search-box{
+    display: flex !important;
+    align-items: center !important;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 0 0px 0px 15px;
+  }
+  
+  .input-group-prepend{
+    padding-left: 10px !important;
+    background-color: white !important;
+  }
+  
+  .inp-search{
+    border: none !important;
+    font-size: 17px !important;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    padding: 15px 10px 15px 10px!important;
+    text-indent: 0.25em;
+    font-family: 'Roboto', sans-serif;
+  }
+  .inp-search:focus, .search-arrow-btn:focus, .search-btn:focus, .inp-search-1:focus{
+    box-shadow: none !important;
+  }
+  
+  .search-arrow-btn{
+    padding: 2px 10px 2px 0px!important;
+    background-color: white !important;
+  }
+  
+ .search-item-box{
+  width: 55% !important;
+ }
+
+  .inp-search-1{
+    border: none !important;
+    font-size: 17px !important;
+    padding: 5px !important;
+    text-indent: 0.1em !important;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .search-btn{
+    background-color: rgb(0, 65, 48) !important;
+    border-radius: 0 !important;
+    padding: 2px 10px 2px 10px!important;
+  }
+  
+  .search-btn .fa-search{
+    color: white;
+  }
+  
+  .txt-login{
+    padding: 5px 10px 5px 20px;
+    margin: 5px 5px 5px 17px;
+  }
+  
+  .txt-login button{
+    color: rgb(0, 65, 48);
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(0, 65, 48);
+  }
+  
+  .txt-login button:focus, .sell-btn button:focus{
+    outline: none;
+  }
+
+  .txt-login button:hover, .view button:hover{
+    border-bottom: none;
+  }
+  
+  .fa-plus{
+    font-size: 18px;
+  }
+  
+  .sell-btn{
+    border-radius: 50px;
+    border: 6px solid;
+    background-color: white;
+    border-color: aqua blue orange;
+   
+  }
+  
+  .sell-btn button{
+    padding: 3px 16px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 0.95em;
+    color: rgb(0, 65, 48);
+    border: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .sell-btn button span{
+    padding: 1px;
+  }

@@ -1,0 +1,22 @@
+.post-header{
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    background-color: rgb(243, 243, 243);
+}
+  
+.arrow-back{
+    padding: 5px;
+    margin-right: 20px;
+}
+  
+.arrow-back button{
+    padding: 3px 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.post-main-heading h3{
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,105 @@
+.image-detail-div{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ad-detail-main-img{
+    border: 1px solid;
+  }
+
+  .ad-detail-main-img img{
+    height: 420px;
+    object-fit: contain;
+  }
+
+  .more-images{
+    border: 1px solid;
+    margin-top: 0.2%;
+  }
+  
+  .image-detail-desc{
+    border: 1px solid;
+    margin-top: 0.2%;
+    padding: 15px 10px 10px;
+  }
+
+  .image-detail-desc h3{
+    color: #002f34;
+    font-weight: bold;
+  }
+  
+  .image-price{
+    border: 1px solid black;
+  }
+  
+  .image-price h3{
+    font-weight: bold;
+    color: #002f34;
+  }
+
+  .seller-desc{
+    border: 1px solid black;
+  }
+
+  .ad-detail-profile{
+    display: flex;
+    justify-content: flex-start;
+    width: 420px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .seller-profile-imgage{
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .seller-profile-imgage img{
+    width: 120px;
+    border-radius: 40px;
+  }
+  
+  .seller-profile-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 76%;
+  }
+  
+  .seller-profile-title p{
+    font-size: 20px;
+    color: rgb(0, 48, 52);
+    font-weight: 500;
+  }
+  
+  .seller-phone-no{
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .btn-chat button{
+    padding: 5px;
+    background-color: rgb(0, 48, 52);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  
+  .btn-chat button:focus{
+    outline: none;
+  }
+  
+  .btn-chat button:active{
+    background-color: rgb(0, 53, 70);
+  }
+  
+  .seller-location{
+    border: 1px solid black;
+  }

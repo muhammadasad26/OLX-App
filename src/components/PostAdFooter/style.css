@@ -1,0 +1,12 @@
+.footer-bar{
+    padding: 15px 50px;
+    background-color: rgb(0, 48, 63);
+  }
+  
+  .footer-bar-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    font-size: 13px;
+  }
