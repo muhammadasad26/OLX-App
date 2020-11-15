@@ -65,9 +65,9 @@ class Home extends Component {
                             <div className="app-btn">
                                 <div className="app-btn-heading">
                                     <h6>GET YOUR APP TODAY</h6>
-                                </div>
-                                <div className="app-btn-btns-1">
-                                    <span className="app-store-btn-1"><img src={Image3} alt="" width="130px" /> <img src={Image4} alt="" width="130px" /></span>
+                                    <div className="app-btn-btns-1 ">
+                                        <img src={Image3} alt="" /> <img src={Image4} alt="" />
+                                    </div>
                                 </div>
                             </div>
                         </div>

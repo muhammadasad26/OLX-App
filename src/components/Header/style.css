@@ -9,6 +9,8 @@
     padding: 10px 30px 10px 52px!important;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     background-color: rgb(246, 246, 246);
   }
   
